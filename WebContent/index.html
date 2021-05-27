@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<title>Funcionários - Início</title>
+		<link rel="stylesheet" type="text/css"
+			href="resources/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css"
+			href="resources/css/bootstrap-vue.css">
+			<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+		</head>
+</head>
+<body>
+	<form action="validarlogin.java" method="post">
+		<div class="imgcontainer">
+		 <div><img src="./img/favicon.ico" alt="logo" class="logo"><h1>Hepta</h1></div> 
+		
+		</div>
+		 
+		<div class="container">
+		  <img src="./img/profile.svg" alt="img" class="img"><label for="uname"><b>Login</b></label>
+		  <input type="text" placeholder="Informe seu Login" name="uname" required>
+	  
+		  <img src="./img/lock.svg" alt="img" class="img"><label for="psw"><b>Senha</b></label>
+		  <input type="password" placeholder="Informe sua senha" name="psw" required>
+	  
+		  <button type="submit">Login</button>
+		  <label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		  </label>
+		</div>
+	  
+		<div class="container" style="background-color:#f1f1f1">
+		  <button type="button" class="cancelbtn">Cancel</button>
+		  <span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+	  </form>
+</body>
+</html>
